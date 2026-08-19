@@ -1,0 +1,44 @@
+node_modules/
+.next/
+.env.local
+.env
+
+.vercel
+
+# Business docs & personal files
+*.docx
+~$*
+x402-Business-Plan*
+x402-Project-Journal*
+DeriveAI-*
+
+# Premium API source code (proprietary)
+app/api/company-report/
+app/api/competitor-analysis/
+app/api/due-diligence/
+app/api/site-audit/
+app/api/email-audit/
+app/api/ip-intel/
+app/api/username-osint/
+app/api/domain-infra/
+app/api/brand-scout/
+
+# Internal strategy & planning
+EXECUTION-PLAN.md
+MARKETING-TEMPLATES.md
+HACKER-NEWS-POST.md
+GITHUB-PR-INSTRUCTIONS.md
+GLOBAL-API-IDEAS.md
+NEW-API-IDEAS.md
+docs/PROJECT-LOG.md
+
+# Internal scripts
+generate-doc.mjs
+generate-journal.mjs
+generate-company-report-doc.mjs
+fix-extensions.mjs
+
+# Build artifacts
+mcp-publisher.exe
+mcp-publisher.tar.gz
+mcp-publisher.zip

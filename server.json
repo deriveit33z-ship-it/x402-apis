@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.deriveit33z-ship-it/x402-apis",
+  "title": "DeriveAI x402 APIs",
+  "description": "25 pay-per-request intelligence APIs for AI agents via x402 micropayments (USDC/Base)",
+  "version": "2.0.0",
+  "websiteUrl": "https://x402-apis-eta.vercel.app",
+  "repository": {
+    "url": "https://github.com/deriveit33z-ship-it/x402-apis",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://x402-apis-eta.vercel.app/api/mcp"
+    }
+  ]
+}
